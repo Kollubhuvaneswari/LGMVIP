@@ -1,0 +1,29 @@
+:root {
+    --dark: #5377b1;
+    --darker: #6590cc;
+    --darkest: #6B7280;
+    --grey: #020203;
+    --pink: #f57fba;
+    --black: #010607;
+    --light: rgb(231, 178, 178);
+    --blue: 
+#7cca79;
+    --mintcream: #f1f5f5;
+    --ghostwhite: #c6c6df;
+    --nardo: #080808;
+} 
+body {
+    display: flex;
+    flex-direction: column ;
+    min-height: 300vh;
+    background-color: var(--blue);
+}
+table{
+    margin-top: 50px;
+    text-align: center;
+    background-color: var(--mintcream);
+}
+#show th,#show td{
+    padding: 13px;
+    color: var(--darkest);
+}
